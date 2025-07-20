@@ -1,73 +1,77 @@
-# Welcome to your Lovable project
+# CreativeAI Platform Homepage
 
-## Project info
+A modern, responsive static homepage for a creative AI platform, built with extensive use of AI coding tools and assistants.
 
-**URL**: https://lovable.dev/projects/480f9f73-7c5f-4c06-87d0-1289c7e8536b
+## 🚀 Features
 
-## How can I edit this code?
+- **Hero Section:** Logo, headline, and clear call-to-action buttons.
+- **Features Section:** Four distinct feature cards with icons/images.
+- **How It Works:** 2–3 key explanations of platform benefits.
+- **Pricing Table:** Three pricing tiers with feature lists.
+- **Responsive Design:** Mobile-friendly and accessible UI.
+- **Footer:** Contact and social media links.
 
-There are several ways of editing your application.
+## 🛠️ Tech Stack
 
-**Use Lovable**
+- **React** (with TypeScript)
+- **Vite** (build tool)
+- **Tailwind CSS** (utility-first styling)
+- **ESLint** (code quality)
+- **Bun & npm** (package management)
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/480f9f73-7c5f-4c06-87d0-1289c7e8536b) and start prompting.
+## 🤖 AI-Assisted Development
 
-Changes made via Lovable will be committed automatically to this repo.
+This project was developed using AI code generation tools and assistants, ensuring rapid prototyping, best practices, and high code quality throughout the process.
 
-**Use your preferred IDE**
+## 📁 Project Structure
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+- `src/components/` – Main UI sections (Hero, Features, HowItWorks, Pricing, Footer, etc.)
+- `src/components/ui/` – Reusable UI primitives (Button, Card, Dialog, etc.)
+- `src/pages/` – Page-level components for routing
+- `src/hooks/` – Custom React hooks
+- `src/lib/` – Utility functions
+- `public/` – Static assets
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+## 🖥️ Getting Started
 
-Follow these steps:
+1. **Install dependencies:**
+   ```sh
+   npm install
+   # or
+   bun install
+   ```
+2. **Run the development server:**
+   ```sh
+   npm run dev
+   # or
+   bun run dev
+   ```
+3. **Open your browser:**
+   - By default, Vite serves the app at [http://localhost:8080](http://localhost:8080). However, your app may run on a different port depending on your configuration or if the default port is in use.
+   - **Check your terminal output after running the dev server to see the exact local address.**
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+### Changing the Development Port
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+If you want to use a specific port (like 8080), update your `vite.config.ts`:
 
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
+```ts
+// vite.config.ts
+export default defineConfig({
+  server: {
+    port: 8080,
+  },
+  // ...other config
+});
 ```
 
-**Edit a file directly in GitHub**
+## 📦 Build for Production
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+```sh
+npm run build
+# or
+bun run build
+```
 
-**Use GitHub Codespaces**
+## 📄 License
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/480f9f73-7c5f-4c06-87d0-1289c7e8536b) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+This project is for educational and demonstration purposes.

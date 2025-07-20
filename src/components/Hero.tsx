@@ -50,13 +50,13 @@ export const Hero = () => {
           <p className="text-sm text-muted-foreground mb-4">Trusted by 10,000+ creative professionals</p>
           <div className="flex justify-center items-center gap-8 opacity-50">
             <div className="w-24 h-8 bg-muted rounded flex items-center justify-center text-xs font-medium">
-              Company A
+              Acme Corp
             </div>
             <div className="w-24 h-8 bg-muted rounded flex items-center justify-center text-xs font-medium">
-              Company B
+              Globex Inc
             </div>
             <div className="w-24 h-8 bg-muted rounded flex items-center justify-center text-xs font-medium">
-              Company C
+              Initech
             </div>
           </div>
         </div>
