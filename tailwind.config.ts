@@ -126,7 +126,7 @@ export default {
 			},
 			backgroundImage: {
 				'gradient-primary': 'linear-gradient(135deg, hsl(250 84% 54%), hsl(250 84% 64%))',
-				'gradient-subtle': 'linear-gradient(180deg, hsl(0 0% 100%), hsl(240 5% 96%))'
+				'gradient-subtle': 'linear-gradient(180deg, hsl(var(--background)), hsl(var(--muted)))'
 			},
 			boxShadow: {
 				'elegant': '0 10px 30px -10px hsl(250 84% 54% / 0.2)',
