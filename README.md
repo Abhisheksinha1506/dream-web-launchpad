@@ -2,14 +2,44 @@
 
 A modern, responsive static homepage for a creative AI platform, built with extensive use of AI coding tools and assistants.
 
-## 🚀 Features
+## 📸 Screenshots
+
+### Desktop Views
+
+#### Full Homepage
+![Desktop Full View](./screenshots/desktop-full-view.png)
+*Complete homepage on desktop (3420x1890)*
+
+#### Hero Section
+![Desktop Hero Section](./screenshots/desktop-hero-section.png)
+*Hero section with logo, headline, and call-to-action buttons*
+
+#### Features Section
+![Desktop Features Section](./screenshots/desktop-features-section.png)
+*Features section with 4 distinct feature cards and icons*
+
+#### Pricing Section
+![Desktop Pricing Section](./screenshots/desktop-pricing-section.png)
+*Pricing table with three tiers and feature lists*
+
+### Mobile View
+![Mobile View](./screenshots/mobile-view.png)
+*Homepage on mobile device (3420x1772)*
+
+**Note:** These are real screenshots captured from the running application at `http://localhost:8080`. The screenshots demonstrate the responsive design and all required sections of the CreativeAI Platform Homepage.
+
+---
+
+## �� Features
 
 - **Hero Section:** Logo, headline, and clear call-to-action buttons.
 - **Features Section:** Four distinct feature cards with icons/images.
 - **How It Works:** 2–3 key explanations of platform benefits.
 - **Pricing Table:** Three pricing tiers with feature lists.
+- **Testimonials:** Customer testimonials with carousel.
 - **Responsive Design:** Mobile-friendly and accessible UI.
 - **Footer:** Contact and social media links.
+- **Smooth Scrolling Navigation:** Single-page navigation with smooth scroll to sections.
 
 ## 🛠️ Tech Stack
 
@@ -25,9 +55,8 @@ This project was developed using AI code generation tools and assistants, ensuri
 
 ## 📁 Project Structure
 
-- `src/components/` – Main UI sections (Hero, Features, HowItWorks, Pricing, Footer, etc.)
+- `src/components/` – Main UI sections (Hero, Features, HowItWorks, Pricing, Testimonials, Footer, Navigation)
 - `src/components/ui/` – Reusable UI primitives (Button, Card, Dialog, etc.)
-- `src/pages/` – Page-level components for routing
 - `src/hooks/` – Custom React hooks
 - `src/lib/` – Utility functions
 - `public/` – Static assets

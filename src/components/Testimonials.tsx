@@ -32,7 +32,7 @@ const testimonials = [
 
 export const Testimonials = () => {
   return (
-    <section className="py-24 bg-background">
+    <section id="testimonials" className="py-24 bg-background">
       <div className="container mx-auto px-6">
         <div className="text-center mb-16">
           <p className="text-primary font-medium mb-4">Testimonials</p>
