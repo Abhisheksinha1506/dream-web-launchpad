@@ -4,50 +4,50 @@ import { Check, Sparkles } from "lucide-react";
 
 const plans = [
   {
-    name: "Starter",
-    description: "Perfect for individuals and small teams",
-    price: 49,
+    name: "Creator",
+    description: "Perfect for freelancers and solo designers",
+    price: 29,
     period: "month",
     features: [
-      "10 AI Generations/month",
-      "Human Enhancement for 5 creatives",
-      "Basic Performance Analytics",
-      "3 Brand Profiles",
-      "Email Support"
+      "50 Design Generations/month",
+      "5 Brand Style Guides",
+      "Basic Template Library",
+      "Standard Export Formats",
+      "Community Support"
     ],
     buttonText: "Start Free Trial",
     popular: false
   },
   {
-    name: "Professional",
-    description: "For growing businesses and agencies",
-    price: 149,
+    name: "Studio",
+    description: "For design teams and small agencies",
+    price: 99,
     period: "month",
     features: [
-      "Unlimited AI Generations",
-      "Human Enhancement for 20 creatives",
-      "Advanced Analytics & Insights",
-      "10 Brand Profiles",
-      "Priority Support",
-      "Video Ad Creation",
-      "Competitor Analysis"
+      "Unlimited Design Generations",
+      "Advanced Template Library",
+      "Team Collaboration Tools",
+      "Priority Rendering",
+      "Premium Export Options",
+      "Custom Brand Assets",
+      "Phone & Email Support"
     ],
     buttonText: "Start Free Trial",
     popular: true
   },
   {
-    name: "Enterprise",
-    description: "For large organizations",
+    name: "Agency",
+    description: "For large teams and enterprises",
     price: "Custom",
     period: "",
     features: [
-      "Unlimited Everything",
-      "Dedicated Design Team",
-      "Custom Model Training",
-      "API Access",
-      "Enterprise Support",
-      "Custom Integrations",
-      "Brand Strategy Consulting"
+      "White-label Solution",
+      "Dedicated Account Manager",
+      "Custom Integration Support",
+      "Advanced Analytics Dashboard",
+      "Bulk Export Tools",
+      "Priority Feature Requests",
+      "24/7 Premium Support"
     ],
     buttonText: "Contact Sales",
     popular: false
@@ -61,10 +61,10 @@ export const Pricing = () => {
         <div className="text-center mb-16">
           <p className="text-primary font-medium mb-4">Pricing</p>
           <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-6">
-            Choose your perfect plan
+            Scale Your Creativity
           </h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-            Get the perfect blend of AI efficiency and human expertise at a price that works for you.
+            Choose the plan that matches your ambition. Unlock powerful design tools that grow with your business.
           </p>
         </div>
         

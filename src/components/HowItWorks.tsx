@@ -4,18 +4,18 @@ import { FileText, Bot, CheckCircle } from "lucide-react";
 const steps = [
   {
     icon: FileText,
-    title: "Submit Your Brief",
-    description: "Tell us about your project, target audience, and creative requirements. Our AI analyzes your brief to understand your needs perfectly."
+    title: "Input Your Vision",
+    description: "Describe your design goals, upload reference materials, or choose from our template library. Our system understands your creative direction instantly."
   },
   {
     icon: Bot,
-    title: "AI Creates & Humans Refine",
-    description: "Our advanced AI generates initial concepts and creative materials. Then our expert human team reviews, refines, and perfects every piece."
+    title: "AI Generates Options",
+    description: "Watch as our intelligent design engine creates multiple professional variations based on your input, complete with typography, colors, and layouts."
   },
   {
     icon: CheckCircle,
-    title: "Get Perfect Results",
-    description: "Receive high-quality, conversion-optimized creative content that's ready to use across all your marketing channels immediately."
+    title: "Refine & Export",
+    description: "Fine-tune your chosen design with our intuitive editor, then export in any format you need - from web-ready files to print-quality assets."
   }
 ];
 
@@ -25,11 +25,11 @@ export const HowItWorks = () => {
       <div className="container mx-auto px-6">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-6">
-            How It Works
+            Simple. Powerful. Instant.
           </h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-            Our streamlined process combines the best of AI technology with human expertise 
-            to deliver exceptional creative results.
+            From concept to completion in three easy steps. Experience the fastest way 
+            to bring your creative vision to life.
           </p>
         </div>
         

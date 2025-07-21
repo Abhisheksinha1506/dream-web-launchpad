@@ -5,28 +5,28 @@ import { Star } from "lucide-react";
 
 const testimonials = [
   {
-    name: "Sarah Chen",
-    role: "Marketing Director",
-    company: "TechFlow Solutions",
-    avatar: "SC",
-    rating: 5,
-    content: "The combination of AI speed and human creativity has transformed our marketing. We're seeing 40% better engagement compared to our previous AI-only solutions."
-  },
-  {
-    name: "Michael Rodriguez",
-    role: "Brand Manager", 
-    company: "Retail Innovations",
-    avatar: "MR",
-    rating: 5,
-    content: "We've tried many creative tools, but the quality and consistency we get with the AI + human approach is unmatched. It's worth every penny."
-  },
-  {
-    name: "Emily Watson",
+    name: "Alex Morgan",
     role: "Creative Director",
-    company: "Global Brands Co.",
-    avatar: "EW",
+    company: "Pixel Studios",
+    avatar: "AM",
     rating: 5,
-    content: "I was skeptical about AI creativity, but the quality and consistency we get with this platform's human oversight is remarkable. Game-changing results."
+    content: "DesignForge completely revolutionized our workflow. What used to take our team days now happens in minutes, with results that exceed our expectations every time."
+  },
+  {
+    name: "Jessica Park",
+    role: "Freelance Designer", 
+    company: "Park Design Co.",
+    avatar: "JP",
+    rating: 5,
+    content: "As a solo designer, this platform is like having an entire creative team at my fingertips. The quality is incredible and my clients are amazed by the turnaround time."
+  },
+  {
+    name: "David Kim",
+    role: "Marketing Manager",
+    company: "StartupFlow",
+    avatar: "DK",
+    rating: 5,
+    content: "The brand consistency features are game-changing. Every design perfectly matches our style guide without any manual adjustments. It's like magic."
   }
 ];
 
@@ -37,7 +37,7 @@ export const Testimonials = () => {
         <div className="text-center mb-16">
           <p className="text-primary font-medium mb-4">Testimonials</p>
           <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-6">
-            Trusted by Industry Leaders
+            Loved by Designers Everywhere
           </h2>
         </div>
         

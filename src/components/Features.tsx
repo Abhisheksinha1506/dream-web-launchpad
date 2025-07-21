@@ -4,23 +4,23 @@ import { Brain, Zap, Users, Target } from "lucide-react";
 const features = [
   {
     icon: Brain,
-    title: "AI-Powered Creativity",
-    description: "Advanced AI algorithms that understand your brand voice and generate compelling creative content that resonates with your audience."
+    title: "Smart Design Engine",
+    description: "Intelligent algorithms analyze your requirements and generate pixel-perfect designs that match your brand aesthetic and industry standards."
   },
   {
     icon: Zap,
-    title: "Lightning Fast Results",
-    description: "Get professional-quality ads and marketing materials in minutes, not days. Speed up your creative workflow dramatically."
+    title: "Instant Generation",
+    description: "Create stunning graphics, logos, and layouts in seconds. Transform concepts into professional designs with unprecedented speed."
   },
   {
     icon: Users,
-    title: "Human Expert Review",
-    description: "Every AI-generated piece is reviewed and refined by our team of creative professionals to ensure top-tier quality."
+    title: "Collaborative Workspace",
+    description: "Seamlessly work with your team in real-time. Share, comment, and iterate on designs with built-in collaboration tools."
   },
   {
     icon: Target,
-    title: "Performance Optimized",
-    description: "All creative content is optimized for maximum conversion rates based on industry best practices and data insights."
+    title: "Brand Consistency",
+    description: "Maintain perfect brand alignment across all designs with intelligent style guides and automated consistency checks."
   }
 ];
 
@@ -30,11 +30,11 @@ export const Features = () => {
       <div className="container mx-auto px-6">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-6">
-            Why Choose Our Platform?
+            Design Smarter, Not Harder
           </h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-            Experience the perfect blend of artificial intelligence and human creativity 
-            to supercharge your marketing efforts.
+            Unlock the future of design with intelligent automation that amplifies your creativity 
+            and delivers professional results every time.
           </p>
         </div>
         
