@@ -30,15 +30,13 @@ export const Hero = () => {
         
         {/* Subheadline */}
         <p className="text-xl md:text-2xl text-muted-foreground max-w-3xl mx-auto mb-12 animate-fade-in" style={{ animationDelay: '0.4s' }}>
-          Revolutionize your creative workflow with intelligent design automation. 
-          Create professional graphics, branding, and digital assets in minutes, not hours.
+          Revolutionize your creative workflow with intelligent design automation. Create professional graphics, branding, and digital assets in minutes, not hours.
         </p>
         
         {/* CTA Buttons */}
         <div className="flex flex-col sm:flex-row gap-4 justify-center items-center animate-fade-in" style={{ animationDelay: '0.6s' }}>
           <Button variant="hero" size="lg" className="group">
             Start Creating
-            <ArrowRight className="ml-2 w-5 h-5 group-hover:translate-x-1 transition-transform" />
           </Button>
           <Button variant="outline" size="lg">
             See Examples

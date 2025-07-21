@@ -21,7 +21,7 @@ const steps = [
 
 export const HowItWorks = () => {
   return (
-    <section id="how-it-works" className="py-24 bg-muted/30">
+    <section id="how-it-works" className="py-12 bg-muted/30">
       <div className="container mx-auto px-6">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-6">
@@ -35,12 +35,15 @@ export const HowItWorks = () => {
         
         <div className="grid md:grid-cols-3 gap-8 relative">
           {/* Connection lines for desktop */}
-          <div className="hidden md:block absolute top-1/2 left-1/3 right-1/3 h-0.5 bg-gradient-to-r from-primary via-primary-glow to-primary opacity-30 transform -translate-y-1/2" />
+          {/* Removed horizontal line */}
           
           {steps.map((step, index) => (
-            <Card 
-              key={index} 
-              className="relative z-10 group hover:shadow-card-hover transition-all duration-300 bg-card border border-border shadow-card"
+            <Card
+              key={index}
+              className={
+                `relative z-10 group transition-all duration-300 border bg-card ` +
+                'hover:shadow-card-hover hover:scale-105 border-border shadow-card'
+              }
             >
               <CardContent className="p-8 text-center">
                 <div className="relative">

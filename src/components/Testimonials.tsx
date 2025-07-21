@@ -42,7 +42,13 @@ export const Testimonials = () => {
         
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto">
           {testimonials.map((testimonial, index) => (
-            <Card key={index} className="group hover:shadow-card-hover transition-all duration-300 border border-border bg-card backdrop-blur-sm h-full shadow-card">
+            <Card
+              key={index}
+              className={
+                `relative group transition-all duration-300 border bg-card h-full ` +
+                'hover:shadow-card-hover hover:scale-105 border-border shadow-card'
+              }
+            >
               <CardContent className="p-8 flex flex-col h-full">
                 <div className="flex items-center mb-4">
                   {[...Array(testimonial.rating)].map((_, i) => (
