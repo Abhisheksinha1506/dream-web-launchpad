@@ -43,10 +43,6 @@ A modern, responsive static homepage for a creative platform, built with extensi
   ![Mobile Fullpage](./screenshots/mobile-fullpage.png)
 - **Mobile Hero Section:**
   ![Mobile Hero](./screenshots/mobile-hero.png)
-- **Mobile Features Section:**
-  ![Mobile Features](./screenshots/mobile-features.png)
-- **Mobile How It Works Section:**
-  ![Mobile How It Works](./screenshots/mobile-howitworks.png)
 - **Mobile Pricing Section:**
   ![Mobile Pricing](./screenshots/mobile-pricing.png)
 - **Mobile Testimonials Section:**
