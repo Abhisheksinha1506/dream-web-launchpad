@@ -32,7 +32,7 @@ export const Navigation = () => {
             className="flex items-center space-x-3 hover:opacity-80 transition-opacity"
           >
             <Sparkles className="w-8 h-8 text-primary" />
-            <span className="text-2xl font-bold text-foreground">CreativeAI</span>
+            <span className="text-2xl font-bold text-foreground">DesignForge</span>
           </button>
 
           {/* Desktop Navigation */}

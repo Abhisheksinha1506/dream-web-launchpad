@@ -10,7 +10,7 @@ export const Footer = () => {
           <div className="col-span-1 md:col-span-2">
             <div className="flex items-center mb-6">
               <Sparkles className="w-8 h-8 text-primary mr-3" />
-              <span className="text-2xl font-bold">CreativeAI</span>
+              <span className="text-2xl font-bold">DesignForge</span>
             </div>
             <p className="text-secondary-foreground/80 mb-6 max-w-md">
               The perfect blend of AI efficiency and human creativity for all your marketing needs. 
@@ -57,7 +57,7 @@ export const Footer = () => {
         
         <div className="border-t border-secondary-foreground/20 mt-12 pt-8 flex flex-col md:flex-row justify-between items-center">
           <p className="text-secondary-foreground/60 text-sm">
-            © 2024 CreativeAI. All rights reserved.
+            © 2024 DesignForge. All rights reserved.
           </p>
           <div className="flex space-x-6 mt-4 md:mt-0">
             <a href="#" className="text-secondary-foreground/60 hover:text-secondary-foreground text-sm transition-colors">
