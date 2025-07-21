@@ -11,6 +11,7 @@ A modern, responsive static homepage for a creative platform, built with extensi
   - **Automated Repetitive Tasks:** Used Cursor to automate repetitive changes (e.g., renaming, updating props, refactoring components) across the codebase, saving significant manual effort.
   - **Debugging and Troubleshooting:** When encountering errors or unexpected UI behavior, Cursor’s AI assistant provided targeted fixes and explanations, streamlining the debugging process.
   - **Documentation and Best Practices:** Cursor suggested best practices for accessibility, responsive design, and code organization, ensuring a high-quality, maintainable codebase.
+  - **Screenshot Management & Documentation:** Cursor was used to organize, rename, and reference screenshots for both desktop and mobile views, making the documentation clear and professional.
 
 ### Lovable
 - **How it was used (in depth):**
@@ -21,23 +22,39 @@ A modern, responsive static homepage for a creative platform, built with extensi
   - **Integration Guidance:** Used Lovable’s AI to assist with integrating third-party libraries, setting up routing (later removed for single-page design), and configuring Tailwind for custom theming.
   - **Collaboration:** Lovable’s platform enabled seamless collaboration between AI and developer, with changes tracked and easily reverted or extended as the project evolved.
 
+**Note:** All screenshots were renamed for clarity and documentation purposes, and are referenced in the sections below for both desktop and mobile views.
+
 ## 📸 Screenshots
 
 ### Desktop Views
 - **Full Homepage:**
-  ![Full Homepage](./screenshots/Screenshot%202025-07-21%20at%2011.25.50.png)
+  ![Full Homepage](./screenshots/desktop-fullpage.png)
 - **Hero Section:**
-  ![Hero Section](./screenshots/Screenshot%202025-07-21%20at%2011.26.08.png)
+  ![Hero Section](./screenshots/desktop-hero.png)
 - **Features Section:**
-  ![Features Section](./screenshots/Screenshot%202025-07-21%20at%2011.26.24.png)
+  ![Features Section](./screenshots/desktop-features.png)
 - **Pricing Section:**
-  ![Pricing Section](./screenshots/Screenshot%202025-07-21%20at%2011.27.00.png)
+  ![Pricing Section](./screenshots/desktop-pricing.png)
+- **Testimonials Section:**
+  ![Testimonials Section](./screenshots/desktop-testimonials.png)
 
-### Mobile View
-- **Mobile View:**
-  ![Mobile View](./screenshots/Screenshot%202025-07-21%20at%2011.27.14.png)
+### Mobile Views
+- **Full Mobile Homepage:**
+  ![Mobile Fullpage](./screenshots/mobile-fullpage.png)
+- **Mobile Hero Section:**
+  ![Mobile Hero](./screenshots/mobile-hero.png)
+- **Mobile Features Section:**
+  ![Mobile Features](./screenshots/mobile-features.png)
+- **Mobile How It Works Section:**
+  ![Mobile How It Works](./screenshots/mobile-howitworks.png)
+- **Mobile Pricing Section:**
+  ![Mobile Pricing](./screenshots/mobile-pricing.png)
+- **Mobile Testimonials Section:**
+  ![Mobile Testimonials](./screenshots/mobile-testimonials.png)
+- **Mobile Navigation:**
+  ![Mobile Navigation](./screenshots/mobile-navigation.png)
 
-**Note:** These screenshots are real outputs captured from the running application, demonstrating both desktop and mobile responsiveness. The images showcase the full homepage, hero, features, pricing, and mobile layouts.
+**Note:** These screenshots are real outputs captured from the running application, demonstrating the full homepage and all major sections (hero, features, pricing, testimonials, navigation, and footer) in both desktop and mobile layouts.
 
 ## 🚀 Features
 - Hero Section: Logo, headline, and clear call-to-action buttons.
