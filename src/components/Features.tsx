@@ -42,7 +42,7 @@ export const Features = () => {
           {features.map((feature, index) => (
             <Card 
               key={index} 
-              className="group hover:shadow-elegant transition-all duration-300 border-0 bg-card/50 backdrop-blur-sm hover:scale-105"
+              className="group hover:shadow-elegant transition-all duration-300 border border-border bg-card/50 backdrop-blur-sm hover:scale-105 shadow-card"
             >
               <CardContent className="p-8 text-center">
                 <div className="w-16 h-16 bg-gradient-primary rounded-2xl flex items-center justify-center mx-auto mb-6 group-hover:scale-110 transition-transform">

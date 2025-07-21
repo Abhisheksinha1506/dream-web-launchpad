@@ -129,8 +129,10 @@ export default {
 				'gradient-subtle': 'linear-gradient(180deg, hsl(var(--background)), hsl(var(--muted)))'
 			},
 			boxShadow: {
-				'elegant': '0 10px 30px -10px hsl(250 84% 54% / 0.2)',
-				'soft': '0 4px 20px -4px hsl(240 6% 10% / 0.1)'
+				'elegant': '0 10px 30px -10px hsl(250 84% 54% / 0.15)',
+				'soft': '0 4px 20px -4px hsl(240 6% 10% / 0.1)',
+				'card': '0 2px 10px -2px hsl(240 6% 10% / 0.1)',
+				'card-hover': '0 8px 25px -8px hsl(240 6% 10% / 0.15)'
 			}
 		}
 	},

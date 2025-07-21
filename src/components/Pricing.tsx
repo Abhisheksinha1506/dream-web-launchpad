@@ -72,10 +72,10 @@ export const Pricing = () => {
           {plans.map((plan, index) => (
             <Card 
               key={index} 
-              className={`relative group transition-all duration-300 border-0 ${
+              className={`relative group transition-all duration-300 border ${
                 plan.popular 
-                  ? 'bg-secondary text-secondary-foreground shadow-elegant scale-105' 
-                  : 'bg-card hover:shadow-soft hover:scale-105'
+                  ? 'bg-secondary text-secondary-foreground shadow-elegant scale-105 border-primary/20' 
+                  : 'bg-card hover:shadow-card-hover hover:scale-105 border-border shadow-card'
               }`}
             >
               {plan.popular && (

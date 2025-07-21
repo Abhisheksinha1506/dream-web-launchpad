@@ -40,7 +40,7 @@ export const HowItWorks = () => {
           {steps.map((step, index) => (
             <Card 
               key={index} 
-              className="relative z-10 group hover:shadow-soft transition-all duration-300 bg-card border-0"
+              className="relative z-10 group hover:shadow-card-hover transition-all duration-300 bg-card border border-border shadow-card"
             >
               <CardContent className="p-8 text-center">
                 <div className="relative">
